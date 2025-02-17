@@ -1,74 +1,137 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #413d3d;
 }
 
-header {
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar .logo {
     font-size: 24px;
     font-weight: bold;
 }
 
-.banner {
-    position: relative;
-    max-width: 800px;
-    margin: auto;
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
 
-.banner img {
-    width: 100%;
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.header {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.collection {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.car-slider {
+    display: flex;
+    gap: 20px;
+    overflow: auto;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+.car-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.car-card img {
+    max-width: 100%;
+    height: auto;
     border-radius: 10px;
 }
 
-.banner .tag {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: #e6007e;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
+.boutique {
+    padding: 50px 20px;
+    text-align: center;
 }
 
-.collection, .showroom, .boutique {
-    max-width: 800px;
-    margin: 40px auto;
-}
-
-h2 {
-    font-size: 22px;
-    margin-bottom: 15px;
-}
-
-.grid {
+.boutique-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
 }
 
-.grid img {
-    width: 100%;
-    border-radius: 5px;
-}
-
-footer {
-    background: #333;
-    color: white;
+.boutique-item {
+    background: white;
     padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-footer input {
-    padding: 8px;
-    margin-right: 10px;
-    border: none;
-    border-radius: 5px;
+.boutique-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
-footer button {
-    background: #e6007e;
-    color: white;
-    padding: 8px 12px;
-    border: none;
-    border-radius: 5px;
+.showroom {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.showroom-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.showroom-image img {
+    max-width: 600px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.show-text, .room-text {
+    position: absolute;
+    font-size: 48px;
+    font-weight: bold;
+    color: black;
+}
+
+.view-all, .discover-btn, .all-products {
+    padding: 10px 20px;
+    border: 1px solid black;
+    background: white;
+    cursor: pointer;
+    margin-top: 20px;
 }
