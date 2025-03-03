@@ -3,76 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>L'EXPERIENCE EXTRAORDINAIRE</title>
+    <title>CarSport</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="navbar">
-        <div class="logo">CARSPORT</div>
+    <header>
+        <div class="logo">
+            <img src="imagenes/Logo.png" alt="">
+        </div>
         <nav>
-            <ul>
-                <li><a href="#">ACCUEIL</a></li>
-                <li><a href="#">VOITURES</a></li>
+            <ul class="menu">
+                <li><a href="#Section1">ACCUEIL</a></li>
+                <li><a href="#collection">VOITURES</a></li>
                 <li><a href="#">CATÉGORIES</a></li>
                 <li><a href="#">CONTACT</a></li>
             </ul>
         </nav>
         <div class="icons">
-            <span class="icon">😊</span>
-            <span class="icon">🛒</span>
+            <i class="fas fa-shopping-cart"></i>
         </div>
     </header>
     
-    <div class="container">
-        <p class="byline">BY CARSPORT</p>
-        <h1 class="header">L'EXPERIENCE EXTRAORDINAIRE</h1>
-        <div class="content">
-            <div class="text">
-                <p>Notre journaliste Jean-Pierre Gagick essaie le tout dernier modèle de Porsche : la 911 S/T. Et pour trouver l'origine du nom "S/T", il faut remonter à la création originelle de 1969...</p>
-                <a href="#" class="button">DÉCOUVRIR</a>
-                <span class="pagination">01 / 06</span>
+    <section id="Section1">
+        <div class="content1">
+            <div>
+                <p>BY CARSPORT</p>
+                <h1>L’EXPÉRIENCE EXTRAORDINAIRE</h1>
             </div>
-            <div class="image">
-                <img src="https://s3-alpha-sig.figma.com/img/12f5/322c/cfdabbe3c078a3eb717645068a17bad9?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=fga5zDn4azHqvcLk-TRPe1CSLxN1JcXx26NmzfFsHwN6UJ7T7jpF0xxOZLMeLDYGkmSxToQMkuYuBwISzLgF179kjl2RoC863C4v1hY08gZU-5YsTNea~PN6HMQeGeAQ6OmMp8u6HtVBV2pR~E0d9cpcYY3HqOCMwX9tQ2d6SOB3q2fj85X1DAR9meDgkpuekSQ0ZDqjzEmOSgwfePO3pG2cURipIXGSeYbS1jApLy0NK70OdjxcJ~t1zO~RVzFGejXM6GEA7i1BVRSElUVkpQq-TDzKuU8DA34HnGZKitr6D8kJaEmmaq4RgkgwQPktkUTjQxfLlF81KGEsk97tug__" alt="Porsche 911 S/T">
+            <div class="description">
+                <p>Notre journaliste Jean-Pierre Gagick essaie le tout dernier modèle de Porsche : la 911 S/T. Et pour trouver l’origine du nom "S/T", il faut remonter à la création originelle de 1969. À cette époque, le constructeur souhaite créer une version allégée de la 911 S pour la compétition. Face à ce succès inattendu, Porsche prend donc la décision de créer son modèle homologué pour la route.</p>
+                <button>DÉCOUVRIR</button>
+                <div class="page-counter">01 / 06</div>
             </div>
         </div>
-    </div>
+        <div class="imagen1">
+            <img src="imagenes/IMAGEN PRINCIPAL.png" alt="">
+        </div>
+    </section>
 
-    <section class="collection">
+     <hr>
+    
+    <section id="collection">
         <h2>DERNIÈRE COLLECTION</h2>
-        <div class="car-slider">
-            <div class="car-card">
-                <img src="" alt="Porsche 911 GT3">
-                <p class="car-title">PORSCHE 911 GT3</p>
-                <p class="car-subtitle"><strong>BODY KIT CARBON</strong></p>
-            </div>
-            <div class="carta-coche">
-                <img src="" alt="Porsche Cayenne">
-                <p class="car-title">PORSCHE CAYENNE</p>
-                <p class="car-subtitle"><strong>PRÉSENTATION</strong></p>
-            </div>
-            <div class="carta-coche">
-                <img src="" alt="Porsche 911 3.2">
-                <p class="car-title">PORSCHE 911 3.2</p>
-                <p class="car-subtitle"><strong>BODY KIT CARBON</strong></p>
-            </div>
-            <div class="carta-coche">
-                <img src="" alt="Porsche 988 Spyder">
-                <p class="car-title">PORSCHE 988 SPYDER</p>
-                <p class="car-subtitle"><strong>SHOWCASE</strong></p>
-            </div>
+        <div class="cajadeimagenes">
+            <div class="car-item"><img src="imagenes/Porsche negro.png" alt="">Porsche 911 GT3</div>
+            <div class="car-item"><img src="imagenes/Porsche 4x4 blanco.png" alt="">Porsche Cayenne</div>
+            <div class="car-item"><img src="imagenes/Porsche rojo.png" alt="">Porsche 911 3.2</div>
+            <div class="car-item"><img src="imagenes/Porsche plateado.png" alt="">Porsche 988 Spyder</div>
         </div>
-        <button class="view-all">TOUTES LES VOITURES</button>
+        <button class="button1">TOUTES LES VOITURES</button>
     </section>
 
-    <section class="showroom">
-        <p class="showroom-intro">LAISSER VOUS TENTER PAR UN UNIVERS DE VITESSE PUR</p>
-        <div class="showroom-content">
-            <div class="showroom-image">
-                <img src="" alt="Showroom Porsche">
+    <section class="section2">
+        <p>LAISSER VOUS TENTER PAR UN UNIVERS DE VITESSE PUR</p>
+        <div class="showroom-wrapper">
+            <img class="Showroom" src="imagenes/foto show room.png" alt="">
+        </div>
+        <button>DÉCOUVRIR</button>
+    </section>
+
+    <hr>
+
+    
+    <section id="boutique">
+        <h2>BOUTIQUE</h2>
+        <div class="boutique-grid">
+            <div class="product">
+                <img src="imagenes/Modelo.png">
+                <p>VESTES</p>
+                <p>Issue de la collection Bruan, la veste...</p>
+            </div>
+            <div class="product">
+                <img src="imagenes/Reloj.png"Montres>
+                <p>MONTRES</p>
+                <p>La montre "Racing" est un...</p>
+            </div>
+            <div class="product">
+                <img src="imagenes/Bicicleta.png"E-Bikes>
+                <p>E-BIKES</p>
+                <p>Le E-bike CarSport est l'allié...</p>
+            </div>
+            <div class="product">
+                <img src="imagenes/Silla.png"Chaises de bureau>
+                <p>CHAISES DE BUREAU</p>
+                <p>En tissu respirant et dossier ergonomique...</p>
             </div>
         </div>
-        <button class="discover-btn">DÉCOUVRIR</button>
+
+        <div class="container">
+            <div class="circle">TOUS LES PRODUITS</div>
+            <div class="image-container">
+                <img src="imagenes/Coche carreras.png" alt="">
+            </div>
+        </div>
+        <div class="description">
+            <span class="highlight">LA VITESSE N'A PLUS DE LIMITE</span>
+            <p class="highlight2">Moteur 6 cylindres à plat atmosphérique de 525 chevaux.</p>
+        </div>
     </section>
+
+    <hr>
+
+    <footer>
+        <section class="newsletter">
+            <h2>RESTER INFORMER GRÂCE À LA NEWSLETTER</h2>
+            <input type="email" placeholder="Adresse mail">
+        </section>
+
+        <div class="footer-grid">
+            <div class="menu">
+                <h3>MENU</h3>
+                <ul>
+                    <li>Accueil</li>
+                    <li>Voitures</li>
+                    <li>Catégories</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+            <div class="boutique">
+                <h3>BOUTIQUE</h3>
+                <ul>
+                    <li>Vestes</li>
+                    <li>Montres</li>
+                    <li>E-bikes</li>
+                    <li>Chaises de bureau</li>
+                </ul>
+            </div>
+
+            <div class="cta-buttons">
+                <button>TOUTES LES VOITURES</button>
+                <button>DÉCOUVRIR</button>
+            </div>
+        </div>
+
+        <div class="payments">
+            <img src="imagenes/GPay.png" alt="">
+            <img src="imagenes/VISA.png" alt="">
+            <img src="imagenes/ApplePay.png" alt="">
+        </div>
+    </footer>
+
 </body>
 </html>
