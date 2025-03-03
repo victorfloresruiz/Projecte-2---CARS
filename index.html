@@ -1,150 +1,213 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CarSport</title>
+    <title>Projecte 2 - CARS</title>
+    <link rel="icon" href="img/iconos/icono.png">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="fonts.css">
+    <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="imagenes/Logo.png" alt="">
+
+    <nav class="nav">
+        <div class="logo_nav">
+            CARSPORT
         </div>
-        <nav>
-            <ul class="menu">
-                <li><a href="#Section1">ACCUEIL</a></li>
-                <li><a href="#collection">VOITURES</a></li>
-                <li><a href="#">CATÉGORIES</a></li>
-                <li><a href="#">CONTACT</a></li>
+        <ul class="list_nav">
+            <li class="item_nav">
+                <a class="link_nav" href="">ACCEUIL</a>
+            </li>
+            <li class="item_nav">
+                <a class="link_nav" href="">VOITURES</a>
+            </li>
+            <li class="item_nav">
+                <a class="link_nav" href="">CATÉGORIES</a>
+            </li>
+            <li class="item_nav">
+                <a class="link_nav" href="">CONTACT</a>
+            </li>
+        </ul>
+        <div class="icons_nav">
+            <ul class="list2_nav">
+                <li class="item2_nav">
+                    <span class="material-symbols-outlined">account_circle</span>
+                </li>
+                <li class="item2_nav">
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                </li>
             </ul>
-        </nav>
-        <div class="icons">
-            <i class="fas fa-shopping-cart"></i>
         </div>
-    </header>
-    
-    <section id="Section1">
-        <div class="content1">
-            <div>
-                <p>BY CARSPORT</p>
-                <h1>L’EXPÉRIENCE EXTRAORDINAIRE</h1>
-            </div>
-            <div class="description">
-                <p>Notre journaliste Jean-Pierre Gagick essaie le tout dernier modèle de Porsche : la 911 S/T. Et pour trouver l’origine du nom "S/T", il faut remonter à la création originelle de 1969. À cette époque, le constructeur souhaite créer une version allégée de la 911 S pour la compétition. Face à ce succès inattendu, Porsche prend donc la décision de créer son modèle homologué pour la route.</p>
-                <button>DÉCOUVRIR</button>
-                <div class="page-counter">01 / 06</div>
-            </div>
-        </div>
-        <div class="imagen1">
-            <img src="imagenes/IMAGEN PRINCIPAL.png" alt="">
-        </div>
-    </section>
+    </nav>
+   <hr class="nav_separacion">
 
-     <hr>
-    
-    <section id="collection">
-        <h2>DERNIÈRE COLLECTION</h2>
-        <div class="cajadeimagenes">
-            <div class="car-item"><img src="imagenes/Porsche negro.png" alt="">Porsche 911 GT3</div>
-            <div class="car-item"><img src="imagenes/Porsche 4x4 blanco.png" alt="">Porsche Cayenne</div>
-            <div class="car-item"><img src="imagenes/Porsche rojo.png" alt="">Porsche 911 3.2</div>
-            <div class="car-item"><img src="imagenes/Porsche plateado.png" alt="">Porsche 988 Spyder</div>
-        </div>
-        <button class="button1">TOUTES LES VOITURES</button>
-    </section>
-
-    <section class="section2">
-        <p>LAISSER VOUS TENTER PAR UN UNIVERS DE VITESSE PUR</p>
-        <div class="showroom-wrapper">
-            <img class="Showroom" src="imagenes/foto show room.png" alt="">
-        </div>
-        <button>DÉCOUVRIR</button>
-    </section>
-
-    <hr>
-
-    
-    <section id="boutique">
-        <h2>BOUTIQUE</h2>
-        <div class="boutique-grid">
-            <div class="product">
-                <img src="imagenes/Modelo.png">
-                <p>VESTES</p>
-                <p>Issue de la collection Bruan, la veste...</p>
+   <header class="header">
+        <div class="container_header">
+            <div class="div_header">
+                <p class="titulo-parrafo_header">BY CARSPORT</p>
+                <h1 class="titulo">L'EXPERIENCE EXTRAORDINAIRE</h1>
             </div>
-            <div class="product">
-                <img src="imagenes/Reloj.png"Montres>
-                <p>MONTRES</p>
-                <p>La montre "Racing" est un...</p>
-            </div>
-            <div class="product">
-                <img src="imagenes/Bicicleta.png"E-Bikes>
-                <p>E-BIKES</p>
-                <p>Le E-bike CarSport est l'allié...</p>
-            </div>
-            <div class="product">
-                <img src="imagenes/Silla.png"Chaises de bureau>
-                <p>CHAISES DE BUREAU</p>
-                <p>En tissu respirant et dossier ergonomique...</p>
+            <div class="div-segundo">
+                <P class="parrafo_header">Notre journaliste Jean-Pierre Gagick essaie le tout dernier modèle de Porsche : la 911 S/T. Et pour trouver l’origine du nom "S/T", il faut remonter à la création originelle de 1969. À cette époque, le constructeur souhaite créer une version allégée de la 911 S pour la compétition. Face à ce succès inattendu, Porsche prend donc la décision de créer son modèle homologué pour la route.</P>
+                <div class="apartado_segundo-div">
+                    <button class="boton">DESCUBRIR</button>
+                    <div class="progreso-barra-sección">
+                        01 / 06
+                        <div class="progreso-barra">
+                            <div class="progreso-raya"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        <img class="header_imagen" src="imagenes/IMAGEN PRINCIPAL.png" alt="Imagen de coche">
+   </header>
+   <hr class="header_separación">
 
-        <div class="container">
-            <div class="circle">TOUS LES PRODUITS</div>
-            <div class="image-container">
-                <img src="imagenes/Coche carreras.png" alt="">
+      <main class="main">
+        <section class="main__primera-secion">
+            <h2 class="main__subtitulo">Dernière Collection</h2>
+            <div class="main__primera-seción_div">
+                <button class="boton segundo--boton">TOUTES LES VOITURES</button>
+                <div class="main__flechas">
+                    <span id="fecha-atras" class="material-symbols-outlined">arrow_back_ios</span>
+                    <span class="material-symbols-outlined">arrow_forward_ios</span>
+                </div>
             </div>
-        </div>
-        <div class="description">
-            <span class="highlight">LA VITESSE N'A PLUS DE LIMITE</span>
-            <p class="highlight2">Moteur 6 cylindres à plat atmosphérique de 525 chevaux.</p>
-        </div>
-    </section>
-
-    <hr>
-
-    <footer>
-        <section class="newsletter">
-            <h2>RESTER INFORMER GRÂCE À LA NEWSLETTER</h2>
-            <input type="email" placeholder="Adresse mail">
         </section>
+        <section class="main__secion-imagenes">
+            <div class="main__secion-imagenes_parte">
+                <img class="main__imagen" src="imagenes/Porsche negro.png" alt="imagen-coche1">
+                <p class="tipo-coche">Porche 911 GT3</p>
+                <strong class="descripcion">body kit carbon</strong>
+            </div>
+            <div class="main__secion-imagenes_parte">
+                <img class="main__imagen" src="imagenes/Porsche 4x4 blanco.png" alt="imagen-coche2">
+                <p class="tipo-coche">Porche CAYENNE</p>
+                <strong class="descripcion">Présentation</strong>
+            </div>
+            <div class="main__secion-imagenes_parte">
+                <img class="main__imagen imagen--diferente" src="imagenes/Porsche rojo.png" alt="imagen-coche3">
+                <p class="tipo-coche">Porche 911 3.2</p>
+                <strong class="descripcion">body kit carbon</strong>
+            </div>
+            <div class="main__secion-imagenes_parte">
+                <img class="main__imagen imagen--diferente" src="imagenes/Porsche plateado.png" alt="imagen-coche4">
+                <p class="tipo-coche">Porche 988 SPYDER</p>
+                <strong class="descripcion">showcase</strong>
+            </div>
+        </section>
+        <hr class="separacion__main">
+    
+        <section class="main_segunda-sesion">
+            <p class="main_segunda-sesion_parrafo">LAISSER VOUS TENTER PAR UN UNIVERS DE VITESSE PUR</p>
+            <span class="main_raya-segunda-sesion">|</span>
+            <img class="main__segunda-secion_imagen" src="imagen/281fdde86af22611ad01084c86527889.png" alt="imagen SHOW ROOM">
+            <button class="boton tercer--boton">DÉCOUVRIR</button>
+        </section>
+        <hr class="separacion__main">
 
-        <div class="footer-grid">
-            <div class="menu">
-                <h3>MENU</h3>
-                <ul>
-                    <li>Accueil</li>
-                    <li>Voitures</li>
-                    <li>Catégories</li>
-                    <li>Contact</li>
+<section class="main_tercera-sesion">
+    <h2 class="main__subtitulo">Boutique</h2>
+    <div class="main__secion-imagenes">
+        <div class="main__secion-imagenes_parte">
+            <img class="main__imagen" src="imagen/95a7f23a9e228549604ddd2410c88eef.png" alt="Producto 1">
+            <strong>Vestes</strong>
+            <p class="main_tercera-sesion_texto">Issue de la collection Baron, la montre 219G164 brille par son originalité et sa couleur. </p>
+        </div>
+        <div class="main__secion-imagenes_parte">
+            <img class="main__imagen" src="imagen/fed9575623e220f0c87687ff8cf4d0a5.png" alt="Producto 2">
+            <strong>Montres</strong>
+            <p class="main_tercera-sesion_texto">La veste de course, souvent appelée "Racing Jacket", est une pièce de mode audacieuse et dynamique.</p>
+        </div>
+        <div class="main__secion-imagenes_parte">
+            <img class="main__imagen" src="imagen/53f8dee6c66ac5e01f27e04d870bf6dc.png" alt="Producto 3">
+            <strong>E-bikes</strong>
+            <p class="main_tercera-sesion_texto">La gamme E-Motion met l’accent sur le consommateur qui est sensible aux prix mais qui privilégie quand même des produits de qualités.</p>
+        </div>
+        <div class="main__secion-imagenes_parte">
+            <img class="main__imagen" src="imagen/60e2aba3a63136e6e55fed8722dfde41.png" alt="Producto 4">
+            <strong>Chaises de bureau</strong>
+            <p class="main_tercera-sesion_texto">En tissu respirant et dispose d’un support lombaire rembourré réglable en hauteur et profondeur, une caractéristique essentielle.</p>
+        </div>
+    </div>
+    <div class="main_tercera-secion_segunda-parte">
+        <div class="main_circulo">
+            <p class="main_circulo-texto">tOUs LES produits</p>
+        </div>
+        <div class="main_tercera-sesion_imagen-grande">
+            <img class="imagen-coche5" src="imagen/0ff3c5db2ebd38cda3d1a15c805af465.png" alt="Coche 5">
+            <strong class="texto-importante_imagen-grande">La vitesse n’a plus de limite</strong>
+            <p class="texto_imagen-grande">Moteur 6 cylindres à plat atmosphérique de 525 chevaux.</p>
+        </div>
+    </div>
+</section>
+<hr class="footer_separacion">
+</main>
+
+<footer class="footer">
+    <div class="footer_primera-parte">
+        <div class="footer_titulo-input">
+            <h2 class="footer_titulo">
+                rester informer grâce à la newsletter
+            </h2>
+            <input class="footer_input" type="email" placeholder="Adresse mail">
+            <span id="footer_input-icono" class="material-symbols-outlined">arrow_forward_ios</span>
+        </div>
+        <div class="footer_pay">
+            <img src="imagenes/GPay.png" alt="Google pay">
+            <img src="imagenes/PayPal.png" alt="PayPal">
+            <img src="imagenes/VISA.png" alt="Visa">
+            <img src="imagenes/ApplePay.png" alt="Apple pay">
+        </div>
+    </div>
+    <div class="footer_segunda-parte">
+        <div class="footer_segunda-parte_primer-sesion">
+            <div class="footer_menu">
+                <strong class="titulo-menu">Menu</strong>
+                <ul class="list_menu">
+                    <li class="menu__item">Acceuil</li>
+                    <li class="menu__item">Voitures</li>
+                    <li class="menu__item">Catégories</li>
+                    <li class="menu__item">Contact</li>
                 </ul>
             </div>
-
-            <div class="boutique">
-                <h3>BOUTIQUE</h3>
-                <ul>
-                    <li>Vestes</li>
-                    <li>Montres</li>
-                    <li>E-bikes</li>
-                    <li>Chaises de bureau</li>
+            <div class="footer_botones">
+                <button class="boton footer-boton-uno">
+                    tOUTES LES VOITURES
+                </button>
+                <button class="boton footer-boton-dos">
+                    Découvrir
+                </button>
+            </div>
+            <div class="footer_boutiques">
+                <strong class="titulo-boutiques">boutique</strong>
+                <ul class="list_boutiques">
+                    <li class="boutiques__item">Montre</li>
+                    <li class="boutiques__item">Hoodie</li>
+                    <li class="boutiques__item">E-bike</li>
+                    <li class="boutiques__item">Chaise de bureau</li>
                 </ul>
             </div>
-
-            <div class="cta-buttons">
-                <button>TOUTES LES VOITURES</button>
-                <button>DÉCOUVRIR</button>
+        </div>
+        <div class="footer_segunda-parte_segunda-sesion">
+            <div class="footer_iconos">
+                <img src="imagen/facebook.png" alt="Facebook">
+                <img src="imagen/instagram.png" alt="Instagram">
+                <img src="imagen/twitter.png" alt="Twitter">
+                <img src="imagen/linkedin.png" alt="Linkedin">
+            </div>
+            <div class="footer_expandir">
+                <span class="material-symbols-outlined">
+                    expand_circle_up
+                </span>
             </div>
         </div>
-
-        <div class="payments">
-            <img src="imagenes/GPay.png" alt="">
-            <img src="imagenes/VISA.png" alt="">
-            <img src="imagenes/ApplePay.png" alt="">
-        </div>
+    </div>
     </footer>
-
-</body>
-</html>
+    
+    </body>
+    </html>
